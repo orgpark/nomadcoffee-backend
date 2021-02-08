@@ -1,0 +1,20 @@
+{
+  "name": "insta-clone-backend",
+  "version": "1.0.0",
+  "description": "Instagram cloning application backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orgpark/insta-clone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orgpark/insta-clone-backend/issues"
+  },
+  "homepage": "https://github.com/orgpark/insta-clone-backend#readme"
+}
