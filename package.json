@@ -4,17 +4,21 @@
   "description": "Instagram cloning application backend",
   "main": "index.js",
   "scripts": {
-    "dev": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orgpark/insta-clone-backend.git"
+    "url": "git+https://github.com/orgpark-daily/instaclone-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/orgpark/insta-clone-backend/issues"
+    "url": "https://github.com/orgpark-daily/instaclone-backend/issues"
   },
-  "homepage": "https://github.com/orgpark/insta-clone-backend#readme"
+  "homepage": "https://github.com/orgpark-daily/instaclone-backend#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "graphql": "^15.5.0"
+  }
 }
