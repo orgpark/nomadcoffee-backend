@@ -15,3 +15,11 @@ https://github.com/apollographql/apollo-server
 ```
 npm install apollo-server graphql
 ```
+
+# Prisma
+
+Migration
+
+```
+npx prisma migrate dev --preview-feature
+```
