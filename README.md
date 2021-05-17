@@ -23,3 +23,9 @@ Migration
 ```
 npx prisma migrate dev --preview-feature
 ```
+
+# GraphQL Tools
+
+```
+npm install graphql-tools@latest
+```
