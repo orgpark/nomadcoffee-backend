@@ -27,12 +27,19 @@ export default {
         console.log('uglyPassword: ', uglyPassword);
         // save and return the user
 
-        return client.user.create({
+        await client.user.create({
           data: { firstName, lastName, username, email, password: uglyPassword },
         });
+        console.log('created!');
+        return {
+          ok: true,
+        };
       } catch (e) {
         console.log('ERROR: ', e);
-        return e;
+        return {
+          ok: false,
+          error: 'cannot create account',
+        };
       }
     },
   },
