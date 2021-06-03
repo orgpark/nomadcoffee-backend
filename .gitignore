@@ -117,3 +117,6 @@ dist
 
 # uploads
 .uploads/
+
+# builds
+build/
