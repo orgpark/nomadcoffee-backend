@@ -8,6 +8,7 @@ import { typeDefs, resolvers } from './schema';
 const apollo = new ApolloServer({
   typeDefs,
   resolvers,
+  playground: true,
   context: async ({ req }) => {
     return {
       loggedInUser: await getUser(req.headers.authorization),
